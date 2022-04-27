@@ -1,0 +1,251 @@
+/* 轮播图 banner 开始 */
+#forum_banner{
+	min-height: 350px;
+	background: url(../img/forum-banner.png) no-repeat center;
+}
+
+/* 轮播图 banner 结束 */
+
+/* 论坛发文 开始 */
+#forum_forum{
+	margin-top: 15px;
+	padding: 0;
+}
+#forum_forum_left
+{
+	background-color: white;
+	padding-top: 10px;
+	box-shadow: 0px 0px 4px #ddd;
+	height: 250px;
+}
+.user-photo{
+	float: left;
+	margin-left: 10px;
+	height: 40px;
+}
+.user-photo img{
+	height: 100%;
+	border-radius:50%
+}
+.user-name{
+	font-size: 3.5em;
+	height: 40px;
+	line-height: 40px;
+	margin-left: 10px;
+	float: left;
+	font-weight: bold;
+}
+.forum-text-title{
+	background-color: white;
+	height: 40px;
+	border: 1px solid #e4bb95;
+	font-size: 16px;
+	width: 31%;
+}
+.forum-type{
+	background: -webkit-gradient(linear, left top, right top , from(#cccccc), to(#fff), color-stop(0.85, #cccccc), color-stop(0.85, #fff));
+	color: #999;
+	width: 21%;
+	height: 40px;
+	border: 1px solid #e4bb95;
+	font-size: 16px;
+}
+.forum-btn{
+	float: right;
+	width: 18%;
+	height: 40px;
+	background: #c12e24 url(../img/shopping.gif) no-repeat center;
+	vertical-align: bottom;
+	border: none;
+}
+.forum-text{
+	margin-top: 20px;
+	background-color: #fffbf9;
+	font-size: 15px;
+	width: 100%;
+	height: 160px;
+	border: 1px solid #e4bb95;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.forum-box{
+	margin: 0;
+	width: 100%;
+}
+#forum_forum_right{
+	padding: 0;
+}
+
+#forum_forum_right .forum-right-box{
+	height: 250px;
+	float: right;
+	background-color: white;
+	box-shadow: 0px 0px 4px #ddd;
+}
+.forum-right-1{
+	padding: 0;
+	height: 71px;
+	background-color: #cd4646;
+	color: #fff;
+}
+.forum-discussion{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.forum-discussion-title{
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.forum-discussion-user .user-name {
+	font-size: 2em;
+}
+.forum-discussion-img{
+	float: left;
+}
+.discussion-number{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+.discussion-add{
+	float: left;
+	margin-top: 20px;
+}
+.forum-right-2{
+	width: 90%;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-bottom: 1px dashed #ccc;
+}
+.forum-discussion-title{
+	font-weight: bold;
+}
+.forum-discussion-user{
+	float: left;
+}
+.forum-discussion-user .user-photo{
+	width: 35px;
+	height: 35px;
+	margin-left: 0;
+	margin-top: 5px;
+}
+.forum-discussion-user .user-photo img{
+	width: 100%;
+	height: 100%;
+}
+.forum-discussion-add{
+	float: right;
+	padding-top: 16px;
+}
+.forum-discussion-add .eye{
+	float: left;
+	background: url(../img/eye.png) no-repeat left;
+	padding-left: 20px;
+	color: #999;
+}
+.forum-discussion-add .talk{
+	float: left;
+	margin-left: 5px;
+	background: url(../img/talk.png) no-repeat left;
+	padding-left: 20px;
+	color: #999;
+}
+
+@media screen and (min-width:0px) {
+	#forum_forum_right .forum-right-box{
+		width: 100%;
+		margin-top: 15px;
+	}
+}
+@media screen and (min-width:992px) {
+	#forum_forum_right .forum-right-box{
+		width: 97%;
+		margin: 0;
+	}
+}
+/* 论坛发文 结束 */
+
+#forum_forum_1{
+	background-color: white;
+	margin-top: 15px;
+	box-shadow: 0px 0px 4px #ddd;
+	min-height: 100px;
+	padding-bottom: 15px;
+}
+
+#forum_forum_1 .index-title{
+	margin-bottom: 10px;
+}
+
+.forum-box-img{
+	float: left;
+	overflow: hidden;
+}
+.forum-box-container{
+	float: left;
+	width: 65%;
+}
+.forum-box-container a{
+	color: #000000;
+}
+.forum-box-container a:hover{
+	text-decoration: none;
+}
+.forum-box-container .forum-right-2{
+	margin-top: 0;
+	width: 100%;
+	height: 80px;
+}
+.forum-box-container .forum-right-2 .forum-discussion-title{
+	font-size: 24px;
+}
+.forum-box-container .forum-right-2 
+.forum-discussion-user .user-name{
+	font-size: 14px;
+}
+.forum-box-container .forum-right-2 
+.forum-discussion-add{
+	padding-top: 0px;
+	margin-top: 3px;
+	width: 150px
+}
+.add1{
+	margin-left: 3px;
+	float: left;
+}
+.add2{
+	color: rgb(202, 124, 50);
+}
+
+.forum-discussion-title .eye{
+	background: url(../img/eye.png) no-repeat left;
+}
+.forum-discussion-title .talk{
+	background: url(../img/talk.png) no-repeat left;
+}
+.forum-discussion-title .eye,
+.forum-discussion-title .talk{
+	float: right;
+	margin-left: 30px;
+	padding-left: 25px;
+	font-size: 16px;
+	color: #999;
+}
+@media screen and (min-width:0px) {
+	.forum-box-img{
+		margin-right: 20px;
+		width: 30%;
+	}
+}
+@media screen and (min-width:768px) {}
+@media screen and (min-width:992px) {}
+@media screen and (min-width:1200px) {
+	.forum-box-img{
+		margin: 0;
+		width: 35%;
+	}
+}

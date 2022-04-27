@@ -1,0 +1,185 @@
+body{
+	font-size: 62.5%;
+}
+/* 轮播图 banner 开始 */
+#about_banner{
+	min-height: 350px;
+	background: url(../img/about-banner.png) no-repeat center;
+}
+/* 轮播图 banner 结束 */
+
+/* 书签菜单栏 开始 */
+#bookmarks_menubar{
+	padding: 0;
+}
+#bookmarks_menubar .bookmarks_1{
+}
+#bookmarks_menubar .bookmarks_1 a{
+	text-decoration: none;
+	float: left;
+	color: #999;
+	font-size: 2.3rem;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+#bookmarks_menubar .bookmarks_1 a:hover{
+	text-decoration: none;
+	border-bottom: 4px #AB0C00 solid;
+}
+#bookmarks_menubar .bookmarks_1 a:hover,
+a:active,a:visited{
+	text-decoration: none;
+}
+#bookmarks_menubar .active a{
+	border-bottom: 4px #AB0C00 solid;
+	color: #AB0C00;
+}
+/* 书签菜单栏 结束 */
+
+/* 公司介绍 开始 */
+#about_introduce,
+#about_idea,
+#about_path,
+#about_join,
+#about_contact{
+	margin-top: 15px;
+	background-color: white;
+	box-shadow: 0px 0px 4px #ddd;
+}
+.about-title{
+	font-size: 3.5rem;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.introduce-box-1,
+.introduce-box-2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.about-text{
+	font-size: 2.5em;
+	color: #999;
+	letter-spacing: 0.1em;
+}
+.about-text .right{
+	float: right;
+}
+.introduce-box{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.introduce-num{
+	font-size: 6rem;
+	color: #c22f25;
+	font-weight: bold;
+}
+.introduce-num-add{
+	font-size: 0.5em;
+}
+.introduce-box-1{
+	float: left;
+}
+.introduce-box-2{
+	float: left;
+}
+
+/* 公司介绍 结束 */
+
+/* 投资理念 开始 */
+.idea-box{
+	margin-top: 20px;
+}
+.idea-box-1 img{
+	width: 100%;
+}
+/* 投资理念 结束 */
+
+/* 发展历程·大事记 开始 */
+#about_path{
+}
+#myTab{
+	height: 60px;
+	margin-top: 20px;
+	background-color: #e6e6e6;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 2px solid #c22f25;
+}
+#myTab li{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+#myTab li a{
+	color: #999;
+	font-size: 1.2em;
+	vertical-align:middle;
+}
+#myTab .active a{
+	background-color: transparent;
+	border: none;
+	border-bottom: 10px solid #c22f25;
+}
+#myTab li a:hover{
+	box-sizing: content-box;
+	border-bottom: 10px solid #c22f25;
+}
+/* 发展历程·大事记 结束 */
+
+/* 加入浙方 开始 */
+#about_join .about-title{
+	text-align: center;
+}
+#about_join .about-text{
+	text-align: center;
+}
+.join-box{
+	
+}
+.join-box-1{
+	padding: 18.5px;
+	height: 140px;
+}
+
+.join-title-sm{
+	width: 32%;
+	float: left;
+}
+.join-title-1{
+	margin-top: 5px;
+	width: 300%;
+	font-size: 3em;
+}
+.apply-img{
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.join-text{
+	margin-top: 10px;
+	font-size: 1em;
+}
+/* 加入浙方 结束 */
+
+/* 联系我们 开始 */
+#about_contact .about-title{
+	text-align: center;
+} 
+.contact-box{
+	font-size: 1.2em;
+}
+.contact-box-name{
+	color:#c22f25;
+	margin-right: 1em;
+}
+.map{
+	width: 100%;
+}
+.map img{
+	width: 100%;
+}
+/* 联系我们 结束 */

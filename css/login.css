@@ -1,0 +1,175 @@
+body{
+	background-color: white;
+}
+
+/* 头部 */
+#login_header{
+	background-color: white;
+	padding: 0;
+}
+
+#login_header ul{
+	padding-inline-start:0px
+}
+
+#login_header ul li{
+	list-style: none;
+}
+
+#login_header .header-left{
+	float: left;
+	margin-top: 40px;
+}
+
+#login_header .header-left li img{
+	display: block;
+	margin: 0 auto;
+}
+
+#login_header .header-right {
+	margin-top: 0px;
+}
+#login_header .header-right li{
+	float: right;
+	margin-left: 55px;
+	margin-top: 55px;
+}
+#login_header .header-right li a,
+#login_header .header-bottom ul li a{
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#login_header .header-bottom{
+	width: 480px;
+	display: block;
+	margin: 0 auto;
+}
+#login_header .header-bottom ul{
+	float: left;
+}
+#login_header .header-bottom ul li{
+	float: left;
+	margin: 10px 50px;
+	font-size: 16px;
+}
+
+#login_header .header-bottom ul li:first-child{
+	margin-left: 30px;
+}
+
+#login_header .header-bottom ul li:last-child{
+	margin-right: 30;
+}
+
+@media screen and (min-width:992px){
+	#login_header{
+		padding-bottom: 20px;
+	}
+}
+
+
+/* 内容 */
+#login_container{
+	width: 100%;
+	overflow: hidden;
+	min-height: 777px;
+	background-color: #371212;
+	background: url(../img/login-bg.jpg) no-repeat center;
+	background-size: 1920px 100%;
+	/* 背景长度1920px,高度100% */
+}
+
+@media screen and (min-width:1920px){
+	#login_container{
+		/* 屏幕大于1920时，背景长度从1920px改为100vw,高度100% */
+		background-size:100vw, 100%;
+	}
+}
+.login-container{
+	margin: 0 auto;
+	margin-top:200px;
+}
+.login-box{
+	width: 438px;
+	height: 350px;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.float-font{
+	font-size: 50px;
+	color: white;
+	letter-spacing: 10px;
+	line-height: 300px;
+}
+.login-box-title{
+	margin-top: 20px;
+	font-size: 35px;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+.login-box-text{
+	width: 285px;
+	height: 45px;
+	border-radius: 0.5em;
+	border: 1px #999 solid;
+	margin-top: 20px;
+	padding-left: 10px;
+	font-size: 15px;
+}
+.login-box-button{
+	width: 285px;
+	background: url(../img/login.jpg);
+	border: 0;
+}
+.login-box-buttom{
+	width: 285px;
+	margin-left: 75px;
+	margin-top: 15px;
+	font-size: 13px;
+	color: #ccc;
+}
+.login-box-buttom p:first-child{
+	float: left;
+}
+.login-box-buttom p:last-child{
+	float: right;
+}
+
+.login-box-buttom a{
+	color: #c12f24;
+}
+
+@media screen and (min-width:992px){
+	.login-box{
+		float: right;
+	}
+}
+
+/* 注册模块 */
+#register-box{
+	display: none;
+}
+
+#register-box .register-password-box{
+	width: 180px;
+	padding-right: 10px;
+	
+}
+
+#register-box .checking-button{
+	width: 100px;
+	background-color: #c12f24;
+	color: white;
+}
+
+#register-box .register-box-button{
+	background-color: #c12f24;
+	color: white;
+	font-size: 18px;
+}

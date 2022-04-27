@@ -1,0 +1,135 @@
+/* 通用样式 开始 */
+body{
+	
+}
+
+/* 通用样式 结束 */
+
+/* 轮播图 banner 开始 */
+#product_banner{
+	max-height: 350px;
+	background: url(../img/product-banner.png) no-repeat center;
+}
+.banner-box{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.banner-box-1{
+	padding: 0;
+	display: block;
+	width: 90%;
+	margin:30px auto;	
+}
+/* 轮播图 banner 结束 */
+/* 大板块id通用设置 */
+#product_hot,
+#product_feature,
+#product_product{
+	background-color: white;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 4px #ddd;
+}
+
+/* 热门板块 product_hot 开始 */
+.hot-img{
+	border-radius: 10px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+/* 热门板块 product_hot 结束 */
+
+/* 特色选基feature 开始 */
+.feature-img{
+	width: 100%;
+	margin-top: 20px;
+}
+/* 特色选基feature 结束 */
+
+/* 基金产品product 开始 */
+.select{
+	float: left;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	min-height: 120px;
+}
+.case{
+	width: 100%;
+	float: left;
+}
+.case-title{
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 40px;
+	line-height: 50px;
+}
+.case-options{
+	float: left;
+	width: 80%;
+	height: 40px;
+	font-size: 15px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.case-option{
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 6px;
+}
+.case-option a{
+	color: #000000;
+}
+.case-active{
+	background-color: #ca7c32;
+}
+.case-active a{
+	color: white;
+}
+.more-case{
+	width: 100%;
+	text-align: center;
+}
+.more-case a{
+	color: #000000;
+	margin-top: 20px;
+}
+
+.product-table table{
+	padding: 0;
+	margin: 0;
+	border: none;
+	width: 100%;
+	text-align: center;
+	display: table;
+}
+
+.product-table table tr{
+	height: 50px;
+}
+
+.fund-name{
+	
+}
+.fund-code{
+	color: #999;
+}
+.fund-up{
+	color: #c65d4a;
+}
+.fund-down{
+	color: #3ca731;
+}
+.product-table table tr:nth-child(odd){
+	background-color: #fff5f2;
+}
+/* 基金产品product 结束 */

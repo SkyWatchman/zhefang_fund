@@ -1,0 +1,217 @@
+/* 轮播图 banner 开始 */
+#course_banner{
+	min-height: 350px;
+	background: url(../img/course-banner.png) no-repeat center;
+}
+
+/* 轮播图 banner 结束 */
+
+/* 视频课堂 和 电台课堂 开始 */
+#course_video,
+#course_radio{
+	margin-top: 15px;
+	padding: 0;
+	background-color: white;
+	box-shadow: 0px 0px 4px #ddd;
+}
+.video-title-big{
+	float: left;
+	width: 28.5%;
+}
+.video-title-big img{
+	height: 100%;
+}
+.video-box{
+	float: right;
+	margin: 0;
+}
+.video-box-1{
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-top: 25px;
+	overflow: hidden;
+	height: 50%;
+	font-size: 13px;
+	position: relative;
+	font-weight: bold;
+}
+.video-box-1 a{
+	display: block;
+	color: #000000;
+	width: 80%;
+	margin: 0 auto;
+}
+.video-box-1 a:hover{
+	text-decoration: none;
+}
+.video-box-1 a img{
+	width: 100%;
+}
+.video-counts{
+	background: url(../img/course-video-img.png) no-repeat left;
+	padding-left: 30px;
+	height: 18px;
+	line-height: 18px;
+	color: #999;
+}
+.video-time{
+	color: #999;
+}
+.col-xs-4{
+	border: #000000 1px solid;
+}
+.video-counts{
+	float: left;
+}
+.video-time{
+	float: right;
+}
+@media screen and (min-width:0px) {
+	.video-box{
+		width:40%;
+	}
+}
+@media screen and (min-width:768px) {
+	.video-box{
+		width: 54%;
+	}
+}
+@media screen and (min-width:992px) {
+	.video-box{
+		width: 64%;
+	}
+}
+@media screen and (min-width:1200px) {
+	.video-box{
+		width: 71.5%;
+	}
+}
+/* 视频课堂 和 电台课堂 结束 */
+
+/* 新手入门 开始 */
+#course_newbie{
+	margin-top: 15px;
+	background-color: white;
+	box-shadow: 0px 0px 4px #ddd;
+}
+
+.newbie-left,
+.newbie-right{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 18px;
+	padding-left: 20px;
+	
+}
+
+.t1,
+.t3,
+.t2{
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin-bottom: 25px;
+}
+
+.t1 .left,
+.t2 .left,
+.t3 .left{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-right: 2px solid #cccccc;
+}
+
+.t1 .right,
+.t2 .right,
+.t3 .right,
+.t4 .right {
+	float: left;
+	
+	/* 通过调节宽度的比例,可以调节文本的最长长度 */
+	font-family: "微软雅黑";
+	font-size: 16px;
+	margin-left: 6px;
+	line-height: 21px;
+}
+@media screen and (min-width:0px) {
+	.t1 .right,
+	.t2 .right,
+	.t3 .right,
+	.t4 .right{
+		width: 77%;
+	}
+}
+@media screen and (min-width:768px) {
+	.t1 .right,
+	.t2 .right,
+	.t3 .right,
+	.t4 .right{
+		width: 80%;
+	}
+}
+
+.right a {
+	color: #000;
+	/*text-decoration:none;*/
+}
+
+.right a span {
+	color: #ccc;
+	/*text-decoration:none;*/
+}
+
+.left .big {
+	font-size: 20px;
+	color: #ab0c00;
+	padding-left: 10px;
+}
+
+.left .small {
+	font-size: 13px;
+	color: #cccccc;
+	padding-left: 12px;
+}
+
+/* 新手入门 结束 */
+
+/* 市场追踪 投资进阶 开始 */
+#course_tracking{
+	margin-top: 15px;
+	padding: 0;
+}
+#course_tracking_left,
+#course_tracking_right{
+	background-color: white;
+	min-height: 10px;
+	width: 49%;
+	padding: 0 15px;
+	box-shadow: 0px 0px 4px #ddd;
+}
+#course_tracking_left{
+	float: left;
+}
+
+#course_tracking_right{
+	float: right;
+}
+.tracking-box{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 18px;
+	padding-left: 5px;
+	width: 100%;
+}
+
+.tracking-img{
+	margin-bottom: 10px;
+}
+
+.tracking-img img{
+	width: 100%;
+}
+
+/* 市场追踪 投资进阶 结束 */

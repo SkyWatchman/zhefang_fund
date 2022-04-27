@@ -1,0 +1,230 @@
+/* 通用样式 开始 */
+body{
+}
+/* 重写style.css 中的.index-title */
+.index-title {
+    border-bottom: 2px solid #dabf90;
+}
+/* 通用样式 结束 */
+
+/* 轮播图 banner 开始 */
+#service_banner{
+	min-height: 350px;
+	background: url(../img/service-banner.png) no-repeat center;
+}
+
+/* 轮播图 banner 结束 */
+/* 大板块id通用设置 */
+#service_form,
+#service_process,
+#service_purpose,
+#service_product
+{
+	min-height: 10px;
+	background-color: white;
+	margin-top: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 4px #ddd;
+}
+
+/* 专户产品 开始 */
+#service_form{
+	display: table;
+	box-shadow: 0px 0px 3px #ddd;
+	min-height: 376px;
+	background-image: url(../img/service-form-bg.png);
+}
+.form-box{
+	display: table-cell;
+	vertical-align: middle;
+}
+.form-text{
+	margin-top: 30px;
+}
+
+.form-text-title{
+	font-weight:bold;
+	font-size: 25px;
+	color: #c22f25;
+}
+
+.form-text-1{
+	font-size: 18px;
+	font-weight: bolder;
+	margin: 20px auto;
+}
+.form-text-2{
+	font-size: 16px;
+	color: #999;
+}
+
+.form-table{
+	border: 0;
+	margin: 0 auto;
+	padding: 0;
+	height: 270px;
+}
+
+.form-table tr:nth-child(odd){
+	font-size: 16px;
+	font-weight: bold;
+	vertical-align: bottom;
+	height:25px;
+}
+.form-table tr:nth-child(even){
+	height:60px;
+}
+.form-table-input{
+	background-color: #fff;
+	color: #666666;
+	font-size: 18px;
+	height: 40px;
+	border: none;
+	border-radius: 0.5em;
+	font-size: 16px;
+	width: 90%;
+	box-shadow: 1px 1px 3px #666;
+}
+.form-btn{
+	border-radius: 8px;
+}
+/* 专户产品 结束 */
+
+/* 服务流程 开始 */
+.process-box .col-xs-12 .form-text-title{
+	margin-top: 20px;
+}
+.process-box .col-xs-12 .form-text-2{
+	margin: 20px 0;
+}
+.process-box-1,
+.process-box-2,
+.process-box-3,
+.process-box-4{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.process-box-img{
+	display: block;
+	margin: 0 auto;
+}
+
+@media screen and (min-width:0px) {
+	.bg-arrows-1{
+		position: absolute;
+		width: 110%;
+		height: 100%;
+		overflow:visible;
+		top: 0;
+		left: 0;
+		background: url(../img/arrows-right.png) no-repeat center;
+		background-position: right 0px center;
+	}
+	.bg-arrows-2{
+		position: absolute;
+		width: 100%;
+		height: 122%;
+		overflow:visible;
+		top: 0;
+		left: 0;
+		background: url(../img/arrows-down.png) no-repeat center;
+		background-position: bottom 0px center;
+	}
+	.bg-arrows-3{
+		position: absolute;
+		width: 110%;
+		height: 100%;
+		overflow:visible;
+		top: 0;
+		left: 0;
+		background: url(../img/arrows-left.png) no-repeat center;
+		background-position: right 0px center;
+	}
+	.process-box-3 a img{
+		content:url(../img/service-product-4.png);
+	}
+	.process-box-4 a img{
+		content:url(../img/service-product-3.png);
+	}
+}
+@media screen and (min-width:992px) {
+	.bg-arrows-2,
+	.bg-arrows-3{
+		position: absolute;
+		width: 110%;
+		height: 100%;
+		overflow:visible;
+		top: 0;
+		left: 0;
+		background: url(../img/arrows-right.png) no-repeat center;
+		background-position: right 0px center;
+	}
+	.process-box-3 a img{
+		content:url(../img/service-product-3.png);
+	}
+	.process-box-4 a img{
+		content:url(../img/service-product-4.png);
+	}
+}
+/* 服务流程 结束 */
+
+/* 服务宗旨 开始 */
+.purpose-title{
+	margin: 20px 0;
+}
+.purpose-box{
+	width: 143px;
+	margin: 0 auto;
+}
+.purpose-box-title{
+	width: 100%;
+	text-align: center;
+	color: #ca7c32;
+	font-size: 23px;
+}
+.purpose-box-text{
+	width: 100%;
+	color: #999;
+	font-size: 4px;
+	overflow: visible;
+}
+
+
+/* 服务宗旨 结束 */
+
+/* 产品公告 开始 */
+
+#service_product{}
+#service_produc .index-title{
+	float: none;
+}
+.service-product-table{
+	margin-top: 60px;
+}
+.service-product-table ul{
+	padding: 0;
+	margin: 0;
+}
+.service-product-table ul li{
+	height: 30px;
+	list-style-type: none;
+	background: url(../img/service-product-table.png) no-repeat 0px -3px;
+}
+.service-product-table ul li a{
+	width: 100%;
+}
+
+.service-product-table ul li a .product-table-left{
+	float: left;
+	margin-left: 25px;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	width: 70%;
+}
+.service-product-table ul li a .product-table-right{
+	float: right;
+	margin-left: 25px;
+	color: #777;
+}
+/* 产品公告 结束 */
